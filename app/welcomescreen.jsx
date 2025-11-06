@@ -11,7 +11,7 @@ const WelcomeScreen = () => {
     <SafeAreaView className="flex-1">
       <LinearGradient
         // Gradient transition from solid blue → faded → white
-        colors={["primary", "#FFFFFF"]}
+        colors={["#000000", "#000000", "#FFFFFF"]}
         locations={[0, 0.3, 0.6, 1]}
         className="flex-1"
       >
