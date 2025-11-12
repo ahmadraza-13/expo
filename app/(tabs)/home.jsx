@@ -18,7 +18,7 @@ const home = () => {
             placeholderTextColor="#ABABAB"
           />
         </View>
-        <View className="flex-row mt-2">
+        <View  className="flex flex-row gap-2 w-full mt-4">
           <View className="border-2 border-[#bbb8b8] rounded-full px-2 py-2">
             <Text className="text-base">Resume</Text>
           </View>
@@ -31,6 +31,9 @@ const home = () => {
           <View className="border-2 border-[#bbb8b8] rounded-full px-2 py-2">
             <Text className="text-base">Applications</Text>
           </View>
+        </View>
+        <View>
+          
         </View>
       </View>
     </SafeAreaView>
