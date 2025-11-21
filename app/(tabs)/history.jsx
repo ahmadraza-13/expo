@@ -18,15 +18,17 @@ const history = () => {
             </Text>
           </View>
         </View>
-        <View className="mt-4">
-          <View className="w-16 h-16">
-            <View className="border-2 rounded-full justify-center items-center">
+        <View className="mt-9 justify-center items-center">
+          <View className="w-24 h-24 justify-center items-center">
+            <View className="border-2 rounded-full">
               <Image source={User} />
             </View>
           </View>
-          <TouchableOpacity className="bg-primary py-4 rounded-lg mt-2 mb-2 justify-center items-center w-48">
-            <Text className="text-white">Add Your Picture</Text>
-          </TouchableOpacity>
+          <View className="">
+            <TouchableOpacity className="bg-primary py-4 rounded-lg mt-2 mb-2 w-48">
+              <Text className="text-white text-center">Add Your Picture</Text>
+            </TouchableOpacity>
+          </View>
         </View>
         <View className="flex-row w-full gap-4 mt-4">
           <TextInput
@@ -51,12 +53,12 @@ const history = () => {
           <TextInput
             placeholder="Your Contact Number"
             placeholderTextColor="#ABABAB"
-            className="border-2 rounded-md border-[#bbb8b8] px-4 py-2 w-48"
+            className="border-2 rounded-md border-[#bbb8b8] px-4 py-2 w-52"
           />
           <TextInput
             placeholder="Your Age"
             placeholderTextColor="#ABABAB"
-            className="border-2 rounded-md border-[#bbb8b8] px-4 py-2 w-36"
+            className="border-2 rounded-md border-[#bbb8b8] px-4 py-2 w-[140px]"
           />
         </View>
         <View className="mt-4">
@@ -84,7 +86,7 @@ const history = () => {
           <TextInput
             placeholder="A highly motivated and detail-oriented professional with [X] years of experience in [Your Industry]. Proven ability to deliver results and [mention a key strength, e.g., streamline operations or build strong client relationships]. Eager to leverage a diverse skill set, including [Skill 1] and [Skill 2], to contribute immediately to a challenging and rewarding role at a growth-focused organization."
             placeholderTextColor="#ABABAB"
-            className="border-2 rounded-md border-[#bbb8b8] px-4 py-2 h-36"
+            className="border-2 rounded-md border-[#bbb8b8] px-4 py-2 h-40"
             multiline={true}
             textAlignVertical="top"
           />
